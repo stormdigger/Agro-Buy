@@ -1,0 +1,38 @@
+/* src/components/Categories.css */
+.category-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.category-image {
+    transition: all 0.3s ease;
+    /* Smooth transition for image effect */
+}
+
+.category-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent black background */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    /* Smooth transition for overlay */
+}
+
+.category-title {
+    color: white;
+    /* White text color */
+    z-index: 1;
+    /* Ensure text is above overlay */
+}
+
+.category-card:hover .category-image {
+    filter: grayscale(100%);
+    /* Black and white effect on hover */
+}
+
+.category-card:hover .category-overlay {
+    opacity: 1;
+    /* Show overlay on hover */
+}

@@ -1,0 +1,35 @@
+/* Basic reset for transition effect */
+* {
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+/* Container with perspective for 3D effect */
+.card-container {
+    position: relative;
+    perspective: 1000px;
+    /* Adjust the perspective if needed */
+}
+
+/* Base styles for the card */
+.card {
+    width: 100%;
+    display: block;
+    transform-style: preserve-3d;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Tilt effect */
+.card.tilted {
+    transform: rotateX(20deg) rotateY(-20deg);
+    /* More pronounced tilt */
+}
+
+/* Darker edge effect on hover */
+.card-container:hover .card {
+    filter: brightness(0.8);
+    /* Darken the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    /* Add shadow to edges */
+}

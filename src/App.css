@@ -1,0 +1,67 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.rating .fa-star,
+.rating .fa-star-o {
+  color: #ffc107;
+  /* Gold color for stars */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #f8f9fa;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 5px 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+/* Container for the cards to ensure perspective */
+.card-container {
+  perspective: 1000px;
+  /* Adjust as needed */
+}
+
+/* Apply 3D tilt effect to all cards */
+.card {
+  transition: transform 0.3s ease;
+  /* Smooth transition for the tilt effect */
+  transform-style: preserve-3d;
+  /* Preserves 3D transformations */
+}
+
+/* 3D tilt effect on hover */
+.card:hover {
+  transform: rotateY(15deg) rotateX(15deg);
+  /* Adjust the degree of tilt as needed */
+}
+
+/* Optional: Enhance the 3D effect with shadow */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Optional shadow for better 3D effect */
+}
