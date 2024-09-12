@@ -12,3 +12,8 @@ To install the project, clone the repository and install the dependencies by run
 git clone https://github.com/yourusername/agro-buy.git
 cd agro-buy
 npm install
+```
+Once the dependencies are installed, you can start the development server by running:
+```bash
+npm start
+```
