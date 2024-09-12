@@ -9,7 +9,7 @@ The technologies used in this project include **ReactJS** and **Bootstrap** for 
 To install the project, clone the repository and install the dependencies by running the following commands:
 
 ```bash
-git clone https://github.com/yourusername/agro-buy.git
+git clone https://github.com/stormdigger/Agro-Buy.git
 cd agro-buy
 npm install
 ```
