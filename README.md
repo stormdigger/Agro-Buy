@@ -17,3 +17,12 @@ Once the dependencies are installed, you can start the development server by run
 ```bash
 npm start
 ```
+After starting the server, open your browser and navigate to http://localhost:3000 to view the application.
+
+The project follows a simple folder structure. The src/components/ folder contains all React components, the src/images/ folder holds image assets, src/App.js is the main application file, and src/index.js is the entry point for the React application. The public/ folder contains static assets like the index.html file.
+
+Contributions to this project are welcome! Feel free to fork the repository and submit a pull request with your changes. Please ensure that you follow the coding standards and include tests where applicable.
+
+This project is licensed under the MIT License. For more details, see the LICENSE file.
+
+Acknowledgments go to ReactJS for building the user interface, Bootstrap for creating responsive web applications, and FontAwesome for providing icons used throughout the project.
